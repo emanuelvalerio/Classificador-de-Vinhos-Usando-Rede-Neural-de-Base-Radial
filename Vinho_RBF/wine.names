@@ -1,0 +1,92 @@
+
+
+   (1)
+   S. Aeberhard, D. Coomans e O. de Vel,
+   Comparação de Classificadores em Configurações de Alta Dimensional,
+   Técnica. Rep. nº 92-02, (1992), Dept. de Informática e Dept. de
+   Matemática e Estatística, James Cook University of North Queensland.
+   (Também submetido à Technometrics).
+
+   Os dados foram utilizados com muitos outros para comparar vários 
+   classificadores. As classes são separáveis, embora apenas RDA 
+   conseguiu uma classificação 100% correcta.
+   (RDA : 100%, QDA 99,4%, LDA 98,9%, LDA 1NN 96,1% (dados transferidos em z))
+   (Todos os resultados utilizando a técnica de leave-one-out)
+
+   Num contexto de classificação, este é um problema bem colocado 
+   com estruturas de classe "bem comportadas". Um bom conjunto de dados 
+   para o primeiro teste de um novo classificador, mas não muito 
+   desafiante.
+
+   (2) 
+   S. Aeberhard, D. Coomans e O. de Vel,
+   "O DESEMPENHO DE CLASSIFICAÇÃO DA RDA"
+   Técnica. Rep. nº 92-01, (1992), Dept. de Informática e Dept. de
+   Matemática e Estatística, James Cook University of North Queensland.
+   (Também submetido ao Journal of Chemometrics).
+
+   Aqui, os dados foram utilizados para ilustrar o desempenho superior de
+   a utilização de uma nova função de apreciação com a RDA. 
+
+4. Informação Relevante:
+
+   -- Estes dados são os resultados de uma análise química de
+      vinhos cultivados na mesma região em Itália, mas derivados de três
+      diferentes cultivares.
+      A análise determinou as quantidades de 13 constituintes
+      encontrados em cada um dos três tipos de vinhos. 
+
+   -- Penso que o conjunto inicial de dados tinha cerca de 30 variáveis, mas 
+      por alguma razão só tenho a versão de 13 dimensões. 
+      Tinha uma lista das cerca de 30 variáveis, mas a.) 
+      perdi-a, e b.), não saberia quais as 13 variáveis
+      estão incluídos no conjunto.
+
+   -- Os atributos são (doados por Riccardo Leardi, 
+	riclea@anchem.unige.it )
+ 	1) Álcool
+ 	2) Ácido málico
+ 	3) Cinzas
+	4) Alcalinidade das cinzas  
+ 	5) Magnésio
+	6) Total de fenóis
+ 	7) Flavanoides
+ 	8) Fenóis não flávanoides
+ 	9) Proantocianinas
+	10)Intensidade da cor
+ 	11)Tonalidade
+ 	12)OD280/OD315 de vinhos diluídos
+ 	13)Proline            
+
+5. Número de Instâncias
+
+      classe 1 59
+	classe 2 71
+	classe 3 48
+
+6. Número de Atributos 
+	
+	13
+
+7. Para cada Atributo:
+
+	Todos os atributos são contínuos
+	
+	Não existem estatísticas disponíveis, mas sugerimos que se normalize
+	variáveis para determinadas utilizações (por exemplo, para nós com classificadores
+	que NÃO são invariantes à escala)
+
+	NOTA: o 1º atributo é o identificador de classe (1-3)
+
+8. Valores de Atributos em Falta:
+
+	Nenhum
+
+9. Distribuição por classe: número de instâncias por classe
+
+      	classe 1 59
+	      classe 2 71
+      	classe 3 48
+
+
+Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
